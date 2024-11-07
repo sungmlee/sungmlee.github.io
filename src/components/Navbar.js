@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo1.png";
+import logo from "../assets/test_icon3.png";
 import { BiWorld, BiUser } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 
@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center sm:mx-6 md:mx-10 lg:mx-12 ">
         {/* Left */}
         <div className="  h-20  flex">
-          <img src={logo} className=" object-cover -my-10" />
+          <img src={logo} className="h-full object-contain" />
         </div>
         {/* Middle */}
         <div className="hidden lg:flex justify-center items-center relative shadow-sm shadow-gray-400 border rounded-full ">
@@ -29,10 +29,10 @@ const Navbar = () => {
         </div>
         {/* Right */}
         <div className="flex items-center pr-3  font-semibold text-gray-600">
-          <p className="text-[17px]">Rent House</p>
+          <p className="text-[17px]">미정</p>
           <div className="flex items-center mx-8 gap-1">
             <BiWorld className="" />
-            <div className="">EN</div>
+            <div className="">미정</div>
           </div>
 
           <div className="flex items-center border px-3 py-2 rounded-full gap-2 bg-[#ff5a60] text-white font-bold shadow-lg shadow-gray-300 hover:bg-[#f9787c] duration-100 ease-out">

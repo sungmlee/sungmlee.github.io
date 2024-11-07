@@ -2,8 +2,11 @@ import Filters from "./components/Filters";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Rentals from "./components/Rentals";
-
+import { useEffect } from "react";
 function App() {
+
+  
+
   return (
     <div className="">
       {/* Navbar */}
